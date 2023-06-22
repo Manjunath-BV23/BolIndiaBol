@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Nano';
+    src: url('../Font/NotoSans-Black-BF6458645de5dea.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2{
+    font-family: "Anton";
+}
+
+.right-title{
+    font-family: "Alatsi";
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.topborder {
+    border-top: 1px solid gray;
+}
+
+.title {
+    margin: 20px 0 40px;
+    padding-top: 20px;
+    font-size: 56px;
+    line-height: 42px;
+    color: #c30311;
+    border-top: 1px solid black;
+}
+.pd-bt-30 {
+    padding-bottom: 30px;
+}
+.container .row a {
+    text-decoration: none;
+    color: black;
+}
+
+.row:hover {
+    color: blue;
+}
+h2:hover {
+    color: blue;
+}
