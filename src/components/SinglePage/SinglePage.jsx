@@ -1,10 +1,14 @@
+import DateTimeDisplay from "../Navbar/Time"
 import "./SinglePage.css"
 
 export const SinglePage = ({data, title}) => {
 
     return (
-        <div className="people">
-            <h1>{title}</h1>
+        <div className="people" style={{borderTop: "1px solid black"}}>
+            <div style={{display:"flex", justifyContent:"space-between",}}>
+                <h1 >{title}</h1><h6 style={{paddingLeft:"20%"}}><DateTimeDisplay/></h6>
+
+            </div>
             {data.map((e) => {
                 return (
                     <div className="container"><hr />

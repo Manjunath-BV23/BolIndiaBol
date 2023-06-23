@@ -13,8 +13,10 @@ export const Home = () => {
     return (
         <>
             <div className="container" >
-            <span><DateTimeDisplay/></span> <span><marquee>Bol India Bol - News In Shorts - Planet | People | Politics</marquee> </span>
-                <h1 className="title">Planet</h1>
+                <div className="title" style={{display:"flex", justifyContent:"space-between",}}>
+                <h1 >Planet</h1><h6 style={{paddingLeft:"20%"}}><DateTimeDisplay/></h6>
+
+                </div>
                 <br />
                 <div className="row pd-bt-30">
                     <div className="col-md-8 ">

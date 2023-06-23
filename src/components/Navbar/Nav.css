@@ -18,7 +18,7 @@ body {
 }
 .nav-elements {
   background-color: white;
-  padding: 20px 10px;
+  padding: 20px 0px;
 }
 
 .navbar {
@@ -26,9 +26,10 @@ body {
   background-color: #fef7e5;
   position: relative;
   background-image: url("../Images/banner.webp");
-  background-size:cover;
+  background-size: cover;
   /* background-position: ; */
   background-repeat: no-repeat;
+  border-bottom: 20px solid #c30311;
 
 }
 .logodiv {
@@ -40,12 +41,14 @@ body {
 }
 
 .nav-elements {
+  /* padding-left: 30px; */
 }
 
 .nav-elements ul {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   list-style-type: none;
+  padding: 0px 30px;
 }
 
 .nav-elements ul li:not(:last-child) {
@@ -86,6 +89,7 @@ body {
   .menu-icon {
     display: block;
     cursor: pointer;
+    padding: 10px;
   }
 
   .nav-elements {

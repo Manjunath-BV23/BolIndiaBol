@@ -27,6 +27,10 @@ h2{
     color: #c30311;
     border-top: 1px solid black;
 }
+.title h1 {
+    font-size: 56px;
+
+}
 .pd-bt-30 {
     padding-bottom: 30px;
 }

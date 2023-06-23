@@ -7,6 +7,7 @@ import { Politics } from "./Politics/Politics"
 import WhiteFooter from "./Footer/WhiteFooter"
 import { Privacy } from "./Privacy-Disclaimer/Privacy"
 import { Disclaimer } from "./Privacy-Disclaimer/Disclaimer"
+import { Menu } from "./Navbar/Menu"
 
 
 export const Routers = () => {
@@ -14,6 +15,7 @@ export const Routers = () => {
         <>
         <Navbar/>
         {/* <Navigation/> */}
+        <Menu/>
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/people" element={<People/>}/>

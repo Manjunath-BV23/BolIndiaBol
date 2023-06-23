@@ -20,25 +20,7 @@ const Navbar = () => {
           <img src={logo} alt="Activ Realty" className="logo" width={"60%"}/>
         </NavLink>
         </div>
-        <div className="menu-icon" onClick={handleShowNavbar}>
-          <img src={menu} alt="menu-icon"  width={"40px"}/>
-        </div>
-        <div className={`nav-elements  ${showNavbar && 'active'}`}>
-          <ul>
-            <li>
-              <NavLink to="/" onClick={handleShowNavbar}>Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/planet" onClick={handleShowNavbar}>Planet</NavLink>
-            </li>
-            <li>
-              <NavLink to="/people" onClick={handleShowNavbar}>People</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Politics" onClick={handleShowNavbar}>Politics</NavLink>
-            </li> 
-          </ul>
-        </div>
+        
       </div>
     </nav>
   )
